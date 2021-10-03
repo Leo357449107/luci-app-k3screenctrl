@@ -38,6 +38,9 @@ o.rmempty = false
 o = s:option(Value, "key", translate("Private Key :"), 
 translate("Input private key, visit: https://docs.seniverse.com/api/start/key.html"))
 
+o = s:option(Value, "key_pub", translate("Public Key :"),
+translate("Input public Key, if need hmacsha1 signature."))
+
 o = s:option(Flag, "city_checkip", translate("Check city from ip"), translate("Check city from local ip."))
 o.default = 0
 

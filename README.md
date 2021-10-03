@@ -1,9 +1,11 @@
 # luci-app-k3screenctrl
 根据 [K3 openwrt18.06.02](https://www.right.com.cn/forum/thread-466672-1-1.html) 固件的LuCi文件而来
 
+Leo357449107: 添加了心知天气公钥签名验证的支持，在填写了公钥的情况下使用签名验证方式认证（V3）。 TODO: 心知天气API v4
+
 个人编译的时候搭配的是:
 
-[lwz322/k3screenctrl](https://github.com/lwz322/k3screenctrl)
+[Leo357449107/k3screenctrl](https://github.com/Leo357449107/k3screenctrl)
 
 [lwz322/k3screenctrl_build](https://github.com/lwz322/k3screenctrl_build)
 
